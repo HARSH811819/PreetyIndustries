@@ -15,7 +15,7 @@ function Heading({
         duration: 1,
         ease: "easeInOut",
       }}
-      className=" flex flex-col gap-4 items-center justify-center px-4 h-full w-full "
+      className=" "
     >
       <h1 className={` text-4xl my-8 text-wrap ${classes}`}>{value}</h1>
     </motion.div>

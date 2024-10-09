@@ -18,14 +18,14 @@ function Home() {
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
         />
-        <div className="w-full md:w-[40%] m-6">
+        <div className="flex w-[90%] mx-auto  m-auto md:w-[40%] m-6">
           <Heading
             transit={true}
             value="MANUFACTURER OF ALL TYPES OF RUBBER PARTS"
-            classes={"font-semibold my-6 m-auto !text-6xl text-green-800"}
+            classes={"font-semibold text-[3vh] md:text-5xl text-green-800"}
           />
         </div>
-        <h1 className=" text-[100px]"></h1>
+        
       </div>
 
 {/* All Products */}
