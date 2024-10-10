@@ -9,6 +9,8 @@ import Footer from "./Footer/Footer.jsx";
 import Paragraph from "./Paragraph.jsx";
 import Badge from "./Badge.jsx";
 import ImageCard from "./ImageCard.jsx";
+import ProductModal from "./ProductModal.jsx";
+import ProductCard from "./ProductCard.jsx";
 
 export {
   Heading,
@@ -21,6 +23,7 @@ export {
   Layout,
   HeaderNav,
   Footer,
-  ImageCard
-  
+  ImageCard,
+  ProductModal,
+  ProductCard
 };
