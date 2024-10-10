@@ -31,12 +31,18 @@ function ProductCard({
         <CardHeader
           color="blue-gray h-fit flex justify-center items-center"
           className="relative h-56"
+          style={{
+            backgroundImage: `url(${Img})`,
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+          }}
         >
-          <img
+          {/* <img
             // src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
             src={Img}
             alt="preety industries"
-          />
+          /> */}
         </CardHeader>
         <CardBody>
           <Typography variant="h5" color="blue-gray" className="mb-2">
