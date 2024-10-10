@@ -13,7 +13,7 @@ function Home() {
     {
       heading:"GASKET",
       discription:"All Gaskets are also available in Nitrile, Silicon and all other kinds of  Special rubber as per  Customer Requirement.",
-      cardImg:"../../assets/CarouselImages/Img3.webp"
+      cardImg:Img3
     },
     {
       heading:"O-RINGS",
