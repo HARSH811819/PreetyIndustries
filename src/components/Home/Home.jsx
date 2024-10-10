@@ -9,8 +9,6 @@ import rubber_caps from '../../assets/Products/ProductsModalImages/rubber_caps.j
 import grommet from '../../assets/Products/ProductsModalImages/grommet.jpg'
 import seals from '../../assets/Products/ProductsModalImages/Bootanddustseal.webp'
 import diaphram from '../../assets/Products/ProductsModalImages/diaphram.jpeg'
-import Img2 from '../../assets/CarouselImages/Img2.webp'
-import Img3 from '../../assets/CarouselImages/Img3.webp'
 
 function Home() {
 
@@ -71,7 +69,9 @@ function Home() {
       {/* All Products */}
 
       <Heading classes={"font-extrabold my-20"} value="Our Product Range"/>
-      <div className="mt-[150px] bg-gray-400 h-fit flex flex-col md:flex-row justify-around relative flex-wrap">
+      <div className="mt-[150px] bg-gray-400 h-fit flex flex-col md:flex-row justify-around relative flex-wrap bg-gradient-to-t from-green-500"
+    
+      >
 
 
         {
