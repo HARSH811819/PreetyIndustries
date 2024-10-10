@@ -3,7 +3,12 @@ import Banner from "../Banner/Banner";
 import Patti from "../Patti";
 import GroupProductIMage from "../../assets/CarouselImages/GroupProductIMage.png";
 import { Heading, ImageCard, ProductModal } from "../index";
-import Img1 from '../../assets/CarouselImages/Img1.webp'
+import gaskets from '../../assets/Products/ProductsModalImages/gaskets.jpg'
+import O_rings from '../../assets/Products/ProductsModalImages/O_rings.jpg'
+import rubber_caps from '../../assets/Products/ProductsModalImages/rubber_caps.jpg'
+import grommet from '../../assets/Products/ProductsModalImages/grommet.jpg'
+import seals from '../../assets/Products/ProductsModalImages/Bootanddustseal.webp'
+import diaphram from '../../assets/Products/ProductsModalImages/diaphram.jpeg'
 import Img2 from '../../assets/CarouselImages/Img2.webp'
 import Img3 from '../../assets/CarouselImages/Img3.webp'
 
@@ -13,33 +18,33 @@ function Home() {
     {
       heading:"GASKET",
       discription:"All Gaskets are also available in Nitrile, Silicon and all other kinds of  Special rubber as per  Customer Requirement.",
-      cardImg:Img3
+      cardImg:gaskets
     },
     {
       heading:"O-RINGS",
       discription:"O-Rings are  also available in other size as mention in  O-Ring size chart",
-      cardImg:Img1
+      cardImg:O_rings
     },
     {
       heading:"CAP",
       discription:"O-Rings are  also available in other size as mention in  O-Ring size chart",
-      cardImg:Img2
+      cardImg:rubber_caps
     },
     {
       heading:"GROMMET",
       discription:"All Grommet are also available in Nitrile, Silicon , EPDM and all other kinds of  Special rubber as per  Customer Requirement.  ",
-      cardImg:Img2
+      cardImg:grommet
     },
     {
       heading:"Boot & Dust Seal ",
       discription:"All Boots  are also available in Nitrile, Silicon ,EPDM ,Neoprene and all other kinds of  Special rubber as per  Customer Requirement. ",
-      cardImg:Img2
+      cardImg:seals
     },
     {
       heading:"Diaphragm & Other parts",
       discription:"All parts are also available in Nitrile, Silicon and all other kinds of  Special rubber as per  Customer Requirement. ",
-      cardImg:Img2
-    },
+      cardImg:diaphram
+    }
   ]
 
   return (
