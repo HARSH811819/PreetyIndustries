@@ -45,7 +45,7 @@ function ProductCard({
           <Typography>{discription}</Typography>
         </CardBody>
         <CardFooter className="pt-0">
-          <Button onClickCapture={btnHandeler}>Read More</Button>
+          <Button onClickCapture={btnHandeler}>View More...</Button>
         </CardFooter>
       </Card>
     </motion.div>

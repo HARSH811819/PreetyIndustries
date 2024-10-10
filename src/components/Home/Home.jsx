@@ -5,8 +5,43 @@ import GroupProductIMage from "../../assets/CarouselImages/GroupProductIMage.png
 import { Heading, ImageCard, ProductModal } from "../index";
 import Img1 from '../../assets/CarouselImages/Img1.webp'
 import Img2 from '../../assets/CarouselImages/Img2.webp'
+import Img3 from '../../assets/CarouselImages/Img3.webp'
 
 function Home() {
+
+  const Products = [
+    {
+      heading:"GASKET",
+      discription:"All Gaskets are also available in Nitrile, Silicon and all other kinds of  Special rubber as per  Customer Requirement.",
+      cardImg:"../../assets/CarouselImages/Img3.webp"
+    },
+    {
+      heading:"O-RINGS",
+      discription:"O-Rings are  also available in other size as mention in  O-Ring size chart",
+      cardImg:Img1
+    },
+    {
+      heading:"CAP",
+      discription:"O-Rings are  also available in other size as mention in  O-Ring size chart",
+      cardImg:Img2
+    },
+    {
+      heading:"GROMMET",
+      discription:"All Grommet are also available in Nitrile, Silicon , EPDM and all other kinds of  Special rubber as per  Customer Requirement.  ",
+      cardImg:Img2
+    },
+    {
+      heading:"Boot & Dust Seal ",
+      discription:"All Boots  are also available in Nitrile, Silicon ,EPDM ,Neoprene and all other kinds of  Special rubber as per  Customer Requirement. ",
+      cardImg:Img2
+    },
+    {
+      heading:"Diaphragm & Other parts",
+      discription:"All parts are also available in Nitrile, Silicon and all other kinds of  Special rubber as per  Customer Requirement. ",
+      cardImg:Img2
+    },
+  ]
+
   return (
     <div>
       <Banner />
@@ -32,11 +67,21 @@ function Home() {
 
       <Heading classes={"font-extrabold my-20"} value="Our Product Range"/>
       <div className="mt-[150px] bg-gray-400 h-fit flex flex-col md:flex-row justify-around relative flex-wrap">
-        <ProductModal 
-        cardImg={Img1} 
-        heading={"Ring Products"}
-        dicription={"this is a new product by preety industries this is very good product"}
-        />
+
+
+        {
+
+          Products.map((product)=>(
+            <ProductModal 
+            cardImg={product.cardImg} 
+            heading={product.heading}
+            dicription={product.discription}
+            />
+
+          ))
+        }
+
+{/* 
         <ProductModal 
         cardImg={Img2} 
         heading={"Rubber Products"}
@@ -48,7 +93,7 @@ function Home() {
         heading={"plastic Rings"}
         dicription={"these are the plastic rings manufactured by us for according to customers need and requirement"}
         
-        />
+        /> */}
       </div>
     </div>
   );
