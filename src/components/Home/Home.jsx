@@ -25,47 +25,43 @@ import newHoland from "../../assets/customersImages/newHoland.jpg";
 import Tata from "../../assets/customersImages/Tata.jpg";
 import Yamaha from "../../assets/customersImages/yamaha.jpg";
 
-
 import Img3 from "../../assets/CarouselImages/Img3.webp";
 
 function Home() {
-
-
   // customers card details
   const testimonials = [
     {
       title: "Ashok Layland",
-      cardImg:ashokLayland
+      cardImg: ashokLayland,
     },
     {
       title: "Bajaj",
-      cardImg:Bajaj
+      cardImg: Bajaj,
     },
     {
       title: "Eicher Motors",
-      cardImg:Eicher  
+      cardImg: Eicher,
     },
     {
       title: "Hero",
-      cardImg:Hero  
+      cardImg: Hero,
     },
     {
       title: "Mahindra",
-      cardImg:mahindra  
+      cardImg: mahindra,
     },
     {
       title: "New Holand",
-      cardImg:newHoland 
+      cardImg: newHoland,
     },
     {
       title: "Tata",
-      cardImg:Tata 
+      cardImg: Tata,
     },
     {
       title: "Yamaha",
-      cardImg:Yamaha 
+      cardImg: Yamaha,
     },
-  
   ];
 
   // Product Details
@@ -108,10 +104,6 @@ function Home() {
     },
   ];
 
- 
-
-  
-
   return (
     <div>
       <Banner />
@@ -147,19 +139,23 @@ function Home() {
       </div>
 
       {/* Our Valuable Customers */}
-      <div className="">
-      </div>
+      <div className=""></div>
 
       <div className="h-[650px] flex flex-col items-center justify-center w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center">
-      <Heading
-        classes={"font-semibold !my-0 !mt-20 md:text-6xl "}
-        value="Our Valuable Customers"
-      />
+        <Heading
+          classes={"font-semibold !my-0 !mt-20 text-5xl text-green-600 "}
+          value="Our Valuable Customers"
+          animate={true}
+        />
+
+ 
         <CustomersMovingCards
-          testimonials={testimonials}  
+          testimonials={testimonials}
           speed={"fast"}
           direction={"left"}
-          />
+          animate={false}
+        />
+
       </div>
     </div>
   );

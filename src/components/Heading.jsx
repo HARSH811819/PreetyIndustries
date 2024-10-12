@@ -3,10 +3,11 @@ import { motion } from "framer-motion";
 function Heading({ 
   value = "Demo", 
   classes, 
-  transit = false,initial={ opacity: 0.0, y: 70 }, 
+  animate = false,
+  initial={ opacity: 0.0, y: 70 }, 
   whileInView={ opacity: 1, y: 0 },
   ...props }) {
-  return transit ? (
+  return animate ? (
     <motion.div
       initial={initial}
       whileInView={whileInView}
