@@ -12,6 +12,7 @@ import ImageCard from "./ImageCard.jsx";
 import ProductModal from "./ProductModal.jsx";
 import ProductCard from "./ProductCard.jsx";
 import GoogleMap from "./GoogleMap.jsx";
+import CustomersMovingCards from "./CustomersMovingCards.jsx";
 export {
   Heading,
   Paragraph,
@@ -26,5 +27,6 @@ export {
   ImageCard,
   ProductModal,
   ProductCard,
-  GoogleMap
+  GoogleMap,
+  CustomersMovingCards
 };

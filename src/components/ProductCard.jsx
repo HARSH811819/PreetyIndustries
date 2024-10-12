@@ -27,10 +27,10 @@ function ProductCard({
       }}
       className="relative flex flex-col  items-center justify-center "
     >
-      <Card className="mt-6 w-[80%] sm:w-96 mx-2 my-8">
+      <Card className="mt-6 w-[80%] sm:w-96 mx-2 my-8 hover:shadow-green-700" onClickCapture={btnHandeler}>
         <CardHeader
           color="blue-gray h-fit flex justify-center items-center"
-          className="relative h-56"
+          className="relative h-56 border border-blue-gray-100 "
           style={{
             backgroundImage: `url(${Img})`,
             backgroundPosition: "center",

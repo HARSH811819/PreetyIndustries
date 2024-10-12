@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 function Banner() {
   return (
     <div
-      className="relative top-0 h-[500px]  sm:h-[100vh] sm:top-0 sm:h-[100vh] "
+      className="relative top-0 h-[500px]  sm:h-[100vh] sm:top-0 sm:h-[100vh]"
       style={{
         backgroundImage: `url(${BannerBG})`,
         backgroundPosition: "center",
