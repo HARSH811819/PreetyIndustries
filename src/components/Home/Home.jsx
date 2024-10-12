@@ -109,16 +109,17 @@ function Home() {
       <Banner />
 
       {/* All kinds MANUFACTURER OF ALL TYPES OF RUBBER PARTS  */}
-      <div className=" flex flex-col sm:flex-row items-center sm:justify-around mt-11 ">
+      <div className=" flex flex-col sm:flex-row items-center sm:justify-around mt-16 ">
         <ImageCard
           cardImg={GroupProductIMage}
           width={"w-full md:w-[40%]"}
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
+          
         />
         <div className="flex w-[90%] mx-auto  m-auto md:w-[40%] m-6">
           <Heading
-            transit={true}
+            animate={true}
             value="MANUFACTURER OF ALL TYPES OF RUBBER PARTS"
             classes={"font-semibold text-[3vh] md:text-5xl text-green-800"}
           />
@@ -127,7 +128,7 @@ function Home() {
 
       {/* All Products */}
 
-      <Heading classes={"font-extrabold my-20"} value="Our Product Range" />
+      <Heading classes={"font-extrabold !my-20 !mt-24 text-green-800 text-5xl md:text-6xl"} value="Our Product Range" animate={true} />
       <div className="mt-[150px] bg-gray-400 h-fit flex flex-col md:flex-row justify-around relative flex-wrap bg-gradient-to-t from-green-500">
         {Products.map((product) => (
           <ProductModal
